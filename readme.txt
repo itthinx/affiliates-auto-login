@@ -14,6 +14,12 @@ Automatically log new affiliates in after registration.
 
 Automatically log new affiliates in after registration, for [Affiliates](https://wordpress.org/plugins/affiliates/), [Affiliates Pro](https://www.itthinx.com/shop/affiliates-pro/) and [Affiliates Enterprise](https://wordpress.org/plugins/affiliates-enterprise/).
 
+Upon registration, the user is logged in automatically and redirected to the same page, assuming that the registration happens on the affiliate dashboard.
+
+The <code>affiliates_auto_login_redirect</code> action can be used to disable the redirect, by returning false.
+
+The redirect URL can be modified by using the <code>affiliates_auto_login_redirect_url</code> filter.
+
 = Requirements =
 [Affiliates](https://wordpress.org/plugins/affiliates/), [Affiliates Pro](https://www.itthinx.com/shop/affiliates-pro/) or [Affiliates Enterprise](https://www.itthinx.com/shop/affiliates-enterprise/).
 
